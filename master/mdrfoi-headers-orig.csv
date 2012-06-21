@@ -1,0 +1,75 @@
+1. MDR Report Key
+2. Event Key
+3. Report Number
+4. Report Source Code
+5. Manufacturer Link Flag (internal information flag)
+6. Number Devices in Event (if source code is 'P', field will be null)
+7. Number Patient in Event (if source code is 'P', field will be null)
+8. Date Received
+9. Adverse Event Flag (B1)
+10. Product Problem Flag (B1)
+11. Date Report (B4)
+12 Date of Event (B3) -- new added, 2006
+13 Single Use Flag (Reprocessor Flag) (D8) -- new added, 2006
+14 Reporter Occupation Code (E3) -- new added, 2006
+15. Health Professional (E2)
+16. Initial Report to FDA (E4)
+17. Distributor Name (F3) 
+18. Distributor Address line 1 (F3) 
+19. Distributor Address line 2 (F3)
+20. Distributor City (F3)
+21. Distributor State Code (F3)
+22. Distributor Zip Code (F3)
+23. Distributor Zip Code Ext (F3)
+24. Date Facility Aware (F6)
+25. Type of Report (F7) !multiple submission type, separate by ','
+26. Report Date (F8)
+27. Report to FDA (F11)
+28. Date Report to FDA (F11)
+29. Event Location (F12)
+30. Report to Manufacturer (F13)
+31. Date Report to Manufacturer (F13)
+32. Manufacturer Name (F14)
+33. Manufacturer Address line 1 (F14) 
+34. Manufacturer Address line 2 (F14)
+35. Manufacturer City (F14)
+36. Manufacturer State Code (F14)
+37. Manufacturer Zip Code (F14)
+38. Manufacturer Zip Code Ext (F14)
+39. Manufacturer Country Code (F14)
+40. Manufacturer Postal Code (F14)
+41. Manufacturer Contact Title Name (G1)
+42. Manufacturer Contact First Name (G1)
+43. Manufacturer Contact Last Name (G1)
+44. Manufacturer Contact Street 1 (G1)
+45. Manufacturer Contact Street 2 (G1)
+46. Manufacturer Contact City (G1)
+47. Manufacturer Contact State Code (G1)
+48. Manufacturer Contact Zip Code (G1)
+49. Manufacturer Contact Zip Code Ext (G1)
+50. Manufacturer Contact Country Code
+51. Manufacturer Contact Postal Code
+52. Manufacturer Contact Phone No Area Code (G1)
+53. Manufacturer Contact Phone No Exchange (G2)
+54. Manufacturer Contact Phone No (G2)
+55. Manufacturer Contact Phone No Ext (G2)
+56. Manufacturer Contact Phone No Country Code
+57. Manufacturer Contact Phone No City Code
+58. Manufacturer Contact Phone No Local
+59. Manufacturer G1 Name (G1)
+60. Manufacturer G1 Street 1 (G1)
+61. Manufacturer G1 Street 2 (G1)
+62. Manufacturer G1 City (G1)
+63. Manufacturer G1 State Code (G1)
+64. Manufacturer G1 Zip Code (G1)
+65. Manufacturer G1 Zip Code Ext (G1)
+66. Manufacturer G1 Country Code
+67. Manufacturer G1 Postal Code
+68. Source Type (G3) -- multiple source type, separate by ','
+69. Date Manufacturer Received (G4)
+70. Device Date Of Manufacture (H4)
+71. Single Use Flag (H5)
+72. Remedial Action (H7) -- multiple source type, separate by ','
+73. Previous Use Code (H8)
+74. Removal/Correction Number (H9)
+75. Event type (H1) -- only relevant for report sourcetype 'M'
